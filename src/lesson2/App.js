@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
 
-const Greeting = props => <h1>Hello, {props.name}.</h1>;
+import Greeting from './Greeting';
 
 class App extends Component {
   constructor(props) {

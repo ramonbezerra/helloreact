@@ -1,12 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import AppFile from './Files';
+import App from './lesson2/App';
 
-ReactDOM.render(
-    <div>
-        <App name="Mariazinha"/>
-        <AppFile />
-    </div>, 
-document.getElementById('root'));
+ReactDOM.render(<App name="Ramon"/>, document.getElementById('root'));

@@ -12,7 +12,7 @@ const FileItem = props => {
     );
 }
 
-class AppFile extends Component {
+class FilesList extends Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -41,4 +41,4 @@ class AppFile extends Component {
     }
 }
 
-export default AppFile;
+export default FilesList;

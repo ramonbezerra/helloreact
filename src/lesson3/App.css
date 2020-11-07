@@ -1,0 +1,14 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/twitterbootstrap/3.3.7/css/bootstrap.min.css);
+
+.dark-theme {
+    background: #333;
+    color: #fff;
+}
+
+.dark-theme .jumbotron {
+    background: #444;
+}
+
+.errors {
+    color: red;
+}
